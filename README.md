@@ -6,7 +6,7 @@ Your TV, simplified. A fast, modern home screen for Android TV and Google TV.
 
 ## Download
 
-Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.0.15). The link downloads the APK directly.
+Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.0.16). The link downloads the APK directly.
 Already have Orbelle? Use **Settings › Update Orbelle** on your TV. Still on 1.0.0? It can't update itself: install the newest version once with Downloader (code **`1415509`**).
 
 ## Install with Downloader
@@ -21,11 +21,26 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 | <img src="docs/screenshots/03-home-v9.png" width="420"><br>**3.** Home: TV Guide pinned in the row over the Mountains wallpaper (the Featured banner can be Full screen, Card or Off) | <img src="docs/screenshots/04-tv-guide-v9.png" width="420"><br>**4.** TV Guide: the channel plays across the top, with groups and the schedule below |
 | <img src="docs/screenshots/05-watching-v9.png" width="420"><br>**5.** Watching a channel in Orbelle Player (press ◀ twice for the previous channel) | <img src="docs/screenshots/06-app-drawer-v9.png" width="420"><br>**6.** Apps: sort by A–Z, My order, Recent or Most used, and see hidden apps |
 | <img src="docs/screenshots/07-search-v9.png" width="420"><br>**7.** Search: the highlighted result fills the screen, with movies, series, apps, and TV channels and shows from your guide | <img src="docs/screenshots/08-control-center-v9.png" width="420"><br>**8.** Control Center: weather (OK for 5 days), Wi-Fi, Bluetooth, LocalSend, now playing and Back to TV |
-| <img src="docs/screenshots/09-settings-v9.png" width="420"><br>**9.** Settings: categories on the left, options on the right | <img src="docs/screenshots/10-wallpapers-v9.png" width="420"><br>**10.** Wallpapers: Mountains (day, sunset and night) and the classic ones |
+| <img src="docs/screenshots/09-settings-v10.png" width="420"><br>**9.** Settings: categories on the left, options on the right (here TV Guide) | <img src="docs/screenshots/10-wallpapers-v9.png" width="420"><br>**10.** Wallpapers: Mountains (day, sunset and night) and the classic ones |
+| <img src="docs/screenshots/11-more-info-v10.png" width="420"><br>**11.** More info: a window over Home with rating, cast, Open, Watch trailer and More like this | <img src="docs/screenshots/12-channel-groups-v10.png" width="420"><br>**12.** Channel groups: move channels to another group, reorder or hide them |
 
 This repository only holds Orbelle's releases: the APK, `latest.json` (what Update Orbelle reads) and release notes. The source code is private.
 
 Copyright © 2026. All rights reserved.
+
+## What's new in 2.0.16
+
+Move channels between groups, a new About screen, sharper wallpapers, logos that fit every app, and a smaller, cleaner Orbelle.
+
+- **Channel groups:** In Settings › TV Guide › Channel groups, open a group to move its channels to another group, reorder them or hide them, like TiviMate; your changes stay after the guide refreshes and are saved in backups.
+- **About Orbelle:** A new About window shows the version, your device and Android version, and whether Orbelle is up to date.
+- **Recommendations:** Refresh recommendations now brings 20 new titles in a new order, and Home shows them right away.
+- **Wallpapers:** Drawn at your TV's full screen resolution, so they're sharp on any size of TV.
+- **App logos:** Every app shows its own logo: TV banners fill the tile without stretching, and apps with only a phone icon now fill the whole tile with their icon.
+- **Dock:** The default dock is Stremio (or Nuvio TV), SmartTube, Downloader and Google Play Store, set once when you update.
+- **LocalSend and File manager:** If they aren't installed, Orbelle opens their Google Play page right away.
+- **IPTV plan:** A short reminder when you open the TV Guide with 7 days or less left on your plan, once a day.
+- **Smaller and cleaner:** Orbelle is about 15% smaller, with old code and old settings cleaned up.
 
 ## What's new in 2.0.15
 
@@ -370,7 +385,6 @@ A smoother way to move around.
 
 - **Highlight:** one glass highlight now glides from tile to tile, with a soft little bounce, on the dock, posters, All apps and Search. The tile you're on still grows.
 - **Performance:** the highlight is drawn once and slid into place, so moving around is lighter on TV boxes.
-- **Credits:** Settings › System › About Orbelle lists open-source licenses. The glass highlight is based on CleanYourTV by Gathin (MIT License).
 
 ## What's new in 1.1.5
 
