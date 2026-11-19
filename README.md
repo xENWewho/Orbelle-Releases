@@ -6,7 +6,7 @@ Your TV, simplified. A fast, modern home screen for Android TV and Google TV.
 
 ## Download
 
-Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.1.2). The link downloads the APK directly.
+Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.1.3). The link downloads the APK directly.
 Already have Orbelle? Use **Settings › Update Orbelle** on your TV. Still on 1.0.0? It can't update itself: install the newest version once with Downloader (code **`1415509`**).
 
 ## Install with Downloader
@@ -27,6 +27,13 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 This repository only holds Orbelle's releases: the APK, `latest.json` (what Update Orbelle reads) and release notes. The source code is private.
 
 Copyright © 2026. All rights reserved.
+
+## What's new in 2.1.3
+
+Settings is steadier to move around, and long lists like Move to group are cleaner.
+
+- **Settings:** Up on the first row and Down on the last row now stay put, on both the menu and the page; only Left and Right move between them.
+- **Move to group:** The list scrolls in its own area with soft edges, shows each group's channel count, marks where the channel is now, and keeps Cancel fixed at the bottom.
 
 ## What's new in 2.1.2
 
