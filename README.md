@@ -6,7 +6,7 @@ Your TV, simplified. A fast, modern home screen for Android TV and Google TV.
 
 ## Download
 
-Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.1.5). The link downloads the APK directly.
+Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.2.0). The link downloads the APK directly.
 Already have Orbelle? Use **Settings › Update Orbelle** on your TV. Still on 1.0.0? It can't update itself: install the newest version once with Downloader (code **`1415509`**).
 
 ## Install with Downloader
@@ -18,7 +18,7 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 | | |
 |---|---|
 | <img src="docs/screenshots/01-check-this-tv-v9.png" width="420"><br>**1.** Check this TV: the first screen after installing | <img src="docs/screenshots/02-whos-watching-v9.png" width="420"><br>**2.** Who's watching? Pick a profile (each can have a PIN) |
-| <img src="docs/screenshots/03-home-v13.png" width="420"><br>**3.** Home: trending titles, and the dock with TV Guide first, set apart from your apps (the Featured banner can be Full screen, Card or Off) | <img src="docs/screenshots/04-tv-guide-v11.png" width="420"><br>**4.** TV Guide: the channel plays in a preview window with a soft glow, with groups and the schedule below |
+| <img src="docs/screenshots/03-home-v14.png" width="420"><br>**3.** Home: trending titles, and the dock with TV Guide, Nuvio TV, SmartTube, Spotify and Unlinked| <img src="docs/screenshots/04-tv-guide-v12.png" width="420"><br>**4.** TV Guide: the show and a live preview on top, a time bar with a now line, and the group strip on the left|
 | <img src="docs/screenshots/05-watching-v9.png" width="420"><br>**5.** Watching a channel in Orbelle Player (press ◀ twice for the previous channel) | <img src="docs/screenshots/06-app-drawer-v9.png" width="420"><br>**6.** Apps: sort by A–Z, My order, Recent or Most used, and see hidden apps |
 | <img src="docs/screenshots/07-search-v9.png" width="420"><br>**7.** Search: the highlighted result fills the screen, with movies, series, apps, and TV channels and shows from your guide | <img src="docs/screenshots/08-control-center-v9.png" width="420"><br>**8.** Control Center: weather (OK for 5 days), Wi-Fi, Bluetooth, LocalSend, now playing and Back to TV |
 | <img src="docs/screenshots/09-settings-v10.png" width="420"><br>**9.** Settings: categories on the left, options on the right (here TV Guide) | <img src="docs/screenshots/10-wallpapers-v9.png" width="420"><br>**10.** Wallpapers: Mountains (day, sunset and night) and the classic ones |
@@ -27,6 +27,17 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 This repository only holds Orbelle's releases: the APK, `latest.json` (what Update Orbelle reads) and release notes. The source code is private.
 
 Copyright © 2026. All rights reserved.
+
+## What's new in 2.2.0
+
+A redesigned TV Guide in the style of TiviMate, with a groups list, favorites and pinned groups, plus a new default dock.
+
+- **TV Guide:** A new layout with the show's info and a live preview on top, a time bar with a now line, and bigger, easier-to-read channel rows.
+- **Groups:** A slim strip shows the group you're in; press Left on the show that's on now to open the groups list, where you can switch, move, pin to the top or hide groups.
+- **Channel menu:** Hold OK on a show to watch it (or set a reminder), add the channel to Favorites (marked with a ★) or move it to another group.
+- **Navigation:** Back jumps to what's on now on the same channel before closing, and Up and Down stop at the first and last items.
+- **Dock:** The default order is now TV Guide, Nuvio TV, SmartTube, Spotify and Unlinked, set once on each profile; missing apps are skipped.
+- **Cleanup:** Removed code left over from earlier Home and guide designs, so Orbelle stays small.
 
 ## What's new in 2.1.5
 
