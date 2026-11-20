@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/banner.png" alt="Orbelle" width="100%">
+</p>
+
 <img src="docs/logo.svg" width="72" align="left">
 
 # Orbelle

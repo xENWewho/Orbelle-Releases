@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="1280" height="640">
+<defs><linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5AB0FF"/><stop offset="1" stop-color="#FF5FA8"/></linearGradient></defs>
+<rect width="640" height="320" fill="#141A36"/>
+<circle cx="560" cy="40" r="140" fill="none" stroke="#262F5E" stroke-width="2"/>
+<circle cx="80" cy="300" r="110" fill="none" stroke="#262F5E" stroke-width="2"/>
+<g transform="translate(251,30) scale(1.38)">
+<rect width="100" height="100" rx="22" fill="#1C2350"/>
+<g transform="translate(50 50) scale(.92) translate(-50 -50)"><circle cx="50" cy="50" r="27" fill="none" stroke="#fff" stroke-width="10"/><circle cx="50" cy="50" r="40" fill="none" stroke="#fff" stroke-opacity=".32" stroke-width="2.6"/><circle cx="79.27" cy="22.73" r="10" fill="url(#p)"/></g>
+</g>
+<text x="320" y="218" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="500" font-family="DM Sans, Segoe UI, Helvetica, Arial, sans-serif">Orbelle</text>
+<text x="320" y="250" text-anchor="middle" fill="#B9BDD6" font-size="17" font-family="DM Sans, Segoe UI, Helvetica, Arial, sans-serif">Your TV, simplified.</text>
+<g font-size="12" font-family="DM Sans, Segoe UI, Helvetica, Arial, sans-serif">
+<rect x="196" y="272" width="70" height="24" rx="12" fill="#1C2350" stroke="#3A4178"/><text x="231" y="288" text-anchor="middle" fill="#B9BDD6">Fast</text>
+<rect x="274" y="272" width="104" height="24" rx="12" fill="#1C2350" stroke="#3A4178"/><text x="326" y="288" text-anchor="middle" fill="#B9BDD6">Lightweight</text>
+<rect x="386" y="272" width="70" height="24" rx="12" fill="#1C2350" stroke="#3A4178"/><text x="421" y="288" text-anchor="middle" fill="#B9BDD6">No ads</text>
+</g>
+</svg>
