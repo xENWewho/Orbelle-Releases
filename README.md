@@ -2,10 +2,6 @@
   <img src="docs/banner.png" alt="Orbelle" width="100%">
 </p>
 
-<img src="docs/logo.svg" width="72" align="left">
-
-# Orbelle
-
 Your TV, simplified. A fast, modern home screen for Android TV and Google TV.
 
 ## Download
