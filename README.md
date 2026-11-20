@@ -6,7 +6,7 @@ Your TV, simplified. A fast, modern home screen for Android TV and Google TV.
 
 ## Download
 
-Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.2.1). The link downloads the APK directly.
+Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.2.2). The link downloads the APK directly.
 Already have Orbelle? Use **Settings › Update Orbelle** on your TV. Still on 1.0.0? It can't update itself: install the newest version once with Downloader (code **`1415509`**).
 
 ## Install with Downloader
@@ -27,6 +27,14 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 This repository only holds Orbelle's releases: the APK, `latest.json` (what Update Orbelle reads) and release notes. The source code is private.
 
 Copyright © 2026. All rights reserved.
+
+## What's new in 2.2.2
+
+Cleaner channel names in the TV Guide, no more channels stuck on Loading, and a smoother groups list.
+
+- **Channel names:** The guide's channel column hides country and quality tags (like "USA" and "HD") and uses a second line when a name is long, so names show in full; the show info keeps the full name.
+- **Guide loading:** Schedules that fail to load are tried again twice, and a channel with no answer shows "No guide info" instead of staying on Loading.
+- **Groups list:** After hiding a group the highlight stays in place, and the list no longer scrolls over the GROUPS title.
 
 ## What's new in 2.2.1
 
