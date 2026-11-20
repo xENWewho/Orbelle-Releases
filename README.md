@@ -6,7 +6,7 @@ Your TV, simplified. A fast, modern home screen for Android TV and Google TV.
 
 ## Download
 
-Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.2.4). The link downloads the APK directly.
+Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.3.0). The link downloads the APK directly.
 Already have Orbelle? Use **Settings › Update Orbelle** on your TV. Still on 1.0.0? It can't update itself: install the newest version once with Downloader (code **`1415509`**).
 
 ## Install with Downloader
@@ -18,7 +18,7 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 | | |
 |---|---|
 | <img src="docs/screenshots/01-check-this-tv-v9.png" width="420"><br>**1.** Check this TV: the first screen after installing | <img src="docs/screenshots/02-whos-watching-v9.png" width="420"><br>**2.** Who's watching? Pick a profile (each can have a PIN) |
-| <img src="docs/screenshots/03-home-v14.png" width="420"><br>**3.** Home: trending titles, and the dock with TV Guide, Nuvio TV, SmartTube, Spotify and Unlinked | <img src="docs/screenshots/04-tv-guide-v13.png" width="420"><br>**4.** TV Guide: the show and a live preview on top, progress bars on the shows on now, and the group strip on the left |
+| <img src="docs/screenshots/03-home-v14.png" width="420"><br>**3.** Home: trending titles, and the dock with TV Guide, Nuvio TV, SmartTube, Spotify and Unlinked | <img src="docs/screenshots/04-tv-guide-v14.png" width="420"><br>**4.** TV Guide: the show and a live preview on top, progress bars on the shows on now, and the group strip on the left |
 | <img src="docs/screenshots/05-watching-v9.png" width="420"><br>**5.** Watching a channel in Orbelle Player (press ◀ twice for the previous channel) | <img src="docs/screenshots/06-app-drawer-v9.png" width="420"><br>**6.** Apps: sort by A–Z, My order, Recent or Most used, and see hidden apps |
 | <img src="docs/screenshots/07-search-v9.png" width="420"><br>**7.** Search: the highlighted result fills the screen, with movies, series, apps, and TV channels and shows from your guide | <img src="docs/screenshots/08-control-center-v9.png" width="420"><br>**8.** Control Center: weather (OK for 5 days), Wi-Fi, Bluetooth, LocalSend, now playing and Back to TV |
 | <img src="docs/screenshots/09-settings-v10.png" width="420"><br>**9.** Settings: categories on the left, options on the right (here TV Guide) | <img src="docs/screenshots/10-wallpapers-v9.png" width="420"><br>**10.** Wallpapers: Mountains (day, sunset and night) and the classic ones |
@@ -27,6 +27,15 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 This repository only holds Orbelle's releases: the APK, `latest.json` (what Update Orbelle reads) and release notes. The source code is private.
 
 Copyright © 2026. All rights reserved.
+
+## What's new in 2.3.0
+
+A more polished TV Guide: clearer logos, complete channel names, a softer highlight and easier number entry.
+
+- **Channel list:** Channel numbers move to the show info at the top, so the list shows each logo and its full name, on two even lines when needed; a name too long even for that gets slightly smaller text instead of being cut.
+- **Logos:** Logos are a little bigger, on a light tile when the logo is dark and a dark tile when it's light, so every logo is easy to see.
+- **Highlight:** The show you're on gets a lighter charcoal with a thin white outline instead of solid white, so long shows don't look heavy.
+- **Channel numbers:** Typing a number on the remote now works up to 5 digits, and if that channel isn't in your group, the guide switches to All channels to show it.
 
 ## What's new in 2.2.4
 
