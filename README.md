@@ -6,7 +6,7 @@ Your TV, simplified. A fast, modern home screen for Android TV and Google TV.
 
 ## Download
 
-Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.4.0). The link downloads the APK directly.
+Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.4.1). The link downloads the APK directly.
 Already have Orbelle? Use **Settings › Update Orbelle** on your TV. Still on 1.0.0? It can't update itself: install the newest version once with Downloader (code **`1415509`**).
 
 ## Install with Downloader
@@ -27,6 +27,47 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 This repository only holds Orbelle's releases: the APK, `latest.json` (what Update Orbelle reads) and release notes. The source code is private.
 
 Copyright © 2026. All rights reserved.
+
+## What's new in 2.4.1
+
+Fixes from the first days of 2.4.0, a cleaner Home banner with Open right on it, and a smoother Settings.
+
+### Home
+
+- **Banner:** Shows the IMDb rating, all genres, the description, and who stars in it and directed it, with just Open and Watch trailer below.
+- **Posters:** OK on a poster moves up to Open on the banner, and Back returns to the poster; with the banner off, OK opens More info.
+- **Highlight:** A poster no longer shows small and then grows a second later.
+- **Buttons:** Highlighted banner buttons keep their rounded ends instead of being cut at the left.
+- **Continue watching:** Cards that had no picture now find one.
+
+### More info
+
+- **Opening:** The window opens smoothly, without a small jump after it appears.
+
+### Search
+
+- **Clear:** A Clear chip removes your recent searches.
+- **On now:** Your live channels now come before Trending, so they're never cut off at the bottom.
+
+### TV Guide
+
+- **Groups list:** The highlighted group keeps all four rounded corners.
+- **Recent:** The Recent group appears once you've watched a channel.
+
+### Settings
+
+- **Update Orbelle:** You can scroll down to About this TV, and the page no longer starts with a block of text.
+- **Look:** The highlighted row has dark, bold text, and the rows are a little darker so everything reads well on any wallpaper.
+- **Left and Right:** Rows with a choice change it with Left as well as Right.
+- **Wallpapers:** The picker opens instantly and switching is smooth, and no highlight is left behind when it closes.
+
+### Control Center
+
+- **Sleep:** The menu uses the new grouped style with icons, and Restart TV box is now just Restart.
+
+### Weather and wallpapers
+
+- **Location:** Before the weather knows your place, the sunrise and sunset of the Nature wallpapers follow your TV's time zone.
 
 ## What's new in 2.4.0
 
