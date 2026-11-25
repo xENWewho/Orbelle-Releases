@@ -6,7 +6,7 @@ Your TV, simplified. A fast, modern home screen for Android TV and Google TV.
 
 ## Download
 
-Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.3.2). The link downloads the APK directly.
+Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.4.0). The link downloads the APK directly.
 Already have Orbelle? Use **Settings › Update Orbelle** on your TV. Still on 1.0.0? It can't update itself: install the newest version once with Downloader (code **`1415509`**).
 
 ## Install with Downloader
@@ -17,7 +17,7 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 
 | | |
 |---|---|
-| <img src="docs/screenshots/01-check-this-tv-v9.png" width="420"><br>**1.** Check this TV: the first screen after installing | <img src="docs/screenshots/02-whos-watching-v9.png" width="420"><br>**2.** Who's watching? Pick a profile (each can have a PIN) |
+| <img src="docs/screenshots/01-check-this-tv-v9.png" width="420"><br>**1.** Check this TV: the first screen after installing | <img src="docs/screenshots/02-update-orbelle-v1.png" width="420"><br>**2.** Update Orbelle: your version, automatic updates, What's new and About this TV |
 | <img src="docs/screenshots/03-home-v14.png" width="420"><br>**3.** Home: trending titles, and the dock with TV Guide, Nuvio TV, SmartTube, Spotify and Unlinked | <img src="docs/screenshots/04-tv-guide-v14.png" width="420"><br>**4.** TV Guide: the show and a live preview on top, progress bars on the shows on now, and the group strip on the left |
 | <img src="docs/screenshots/05-watching-v9.png" width="420"><br>**5.** Watching a channel in Orbelle Player (press ◀ twice for the previous channel) | <img src="docs/screenshots/06-app-drawer-v9.png" width="420"><br>**6.** Apps: sort by A–Z, My order, Recent or Most used, and see hidden apps |
 | <img src="docs/screenshots/07-search-v9.png" width="420"><br>**7.** Search: the highlighted result fills the screen, with movies, series, apps, and TV channels and shows from your guide | <img src="docs/screenshots/08-control-center-v9.png" width="420"><br>**8.** Control Center: weather (OK for 5 days), Wi-Fi, Bluetooth, LocalSend, now playing and Back to TV |
@@ -27,6 +27,68 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 This repository only holds Orbelle's releases: the APK, `latest.json` (what Update Orbelle reads) and release notes. The source code is private.
 
 Copyright © 2026. All rights reserved.
+
+## What's new in 2.4.0
+
+A big refresh: a cleaner Settings, new wallpapers, smoother motion everywhere, and automatic updates.
+
+### TV Guide
+
+- **Recent:** A new group at the top with the last 10 channels you watched.
+- **Groups list:** The highlighted group is no longer faded or cut off while the list scrolls.
+- **On or off:** Turn the whole TV Guide off in Settings › TV Guide if you don't use it; its dock tile, live channels in Search and Back to TV go away with it.
+- **Switching groups:** The new group's rows slide into place one after another.
+
+### Search
+
+- **Apps:** An app opens straight from the results without Home showing first, and Back returns to your results.
+- **On now:** Channel cards match the TV Guide, with the channel logo, the show, the time left and a progress bar.
+
+### Home
+
+- **Banner:** The picture blends smoothly into the next title.
+- **Posters:** The highlighted poster lifts with a deep shadow and a quick light sweep, and the others dim.
+- **Loading:** Posters show a soft shimmer while they download.
+- **Start:** Home settles in, section by section, when Orbelle starts or the TV wakes up.
+- **Profile:** Your picture is on Home; select it to change your name, picture or color.
+
+### All apps
+
+- **Opening:** All apps grows out of its dock button and shrinks back into it.
+- **Few apps:** With 12 apps or fewer, the apps sit centered in balanced rows with every name showing.
+- **Coming back:** The app you return from glows briefly, so you always know where you are.
+
+### Wallpapers
+
+- **Nature:** Four new wallpapers, Mirror Lake, Dunes, Coast and Northern Lights, each with day, sunset and night looks that follow the sun.
+- **Classic:** Aurora, Ocean, Ember and Graphite are redone in frosted glass.
+
+### Settings
+
+- **New look:** Settings are grouped in frosted glass panels with section headers and simple white icons.
+- **One profile:** Settings › Profile holds your name, picture, color, a PIN for Settings and the greeting; switching profiles and "Who's watching?" are gone.
+- **Recommendations:** The choices are now All, Kids, Movies, Series and Your genres.
+- **Update Orbelle:** Now includes About: your version, the update status, your device and Android version.
+- **What's new:** Shows every change in the newest version, grouped by area, with earlier versions below.
+- **Motion:** Choose Fast, Normal, Slow or Off.
+
+### Control Center
+
+- **Header:** Your picture, name and greeting, with the time and date.
+- **Panel:** Frosted glass, only as tall as what's in it, opening with a soft spring.
+- **Display:** The Display mode button has a new HDR icon.
+
+### Motion
+
+- **One style:** Full screens (TV Guide, Search, More info, Settings and All apps) zoom in, side panels spring in, popups scale up quickly, and closing is a little quicker than opening.
+
+### Updates and performance
+
+- **Automatic updates:** Orbelle downloads a new version while the TV is on and installs it while the TV sleeps (Android 12 and newer); choose Automatic, Notify only or Off in Settings › Update Orbelle.
+- **Lite mode:** Also turns off the light sweep, the shimmer and the zooms, for the lightest feel.
+- **Low-memory boxes:** A lighter blur, less memory for pictures and the TV Guide, and a quicker return to Home on 2 GB TV boxes.
+- **Wi-Fi:** Turn on Wi-Fi opens the TV's Wi-Fi settings right away on newer Android versions.
+- **Animations:** Orbelle keeps its own animation speed even when the TV's animation scale was changed.
 
 ## What's new in 2.3.2
 
