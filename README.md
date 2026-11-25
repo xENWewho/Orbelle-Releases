@@ -6,7 +6,7 @@ Your TV, simplified. A fast, modern home screen for Android TV and Google TV.
 
 ## Download
 
-Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.4.1). The link downloads the APK directly.
+Download **[Orbelle-Launcher.apk](https://github.com/xENWewho/orbelle-releases/raw/main/apk/Orbelle-Launcher.apk)** (version 2.4.2). The link downloads the APK directly.
 Already have Orbelle? Use **Settings › Update Orbelle** on your TV. Still on 1.0.0? It can't update itself: install the newest version once with Downloader (code **`1415509`**).
 
 ## Install with Downloader
@@ -27,6 +27,31 @@ On the TV, open the **Downloader** app, enter code **`1415509`** and the APK dow
 This repository only holds Orbelle's releases: the APK, `latest.json` (what Update Orbelle reads) and release notes. The source code is private.
 
 Copyright © 2026. All rights reserved.
+
+## What's new in 2.4.2
+
+A cleaner Home banner and Settings, a TV Guide preview that keeps playing when you come back, and faster More info.
+
+### Home
+
+- **Banner:** Open and Watch trailer keep their round ends when highlighted.
+- **Banner style:** The Card style is gone: the banner is Full screen or Off.
+
+### More info
+
+- **Cast:** Starring and Director show the moment the page opens.
+
+### TV Guide
+
+- **Back from a channel:** The preview keeps playing the channel you were watching, right away, with no reload.
+- **No signal:** A channel that doesn't play says so in the preview instead of showing an empty window.
+- **Groups list:** The highlighted group keeps its round ends.
+
+### Settings
+
+- **Header:** Each page shows just the name and description, lined up with the sections below.
+- **What's new:** Opens right away and stays on its page.
+- **Subtitles:** Appearance, Home Screen & Dock and System say what's inside them.
 
 ## What's new in 2.4.1
 
