@@ -30,11 +30,15 @@ Copyright © 2026. All rights reserved.
 
 ## What's new in 2.4.3
 
-A small fix for the TV Guide's No signal message.
+Small fixes for the TV Guide's No signal message and a Settings subtitle.
 
 ### TV Guide
 
 - **No signal:** The line under No signal is now centered in the preview window.
+
+### Settings
+
+- **Subtitles:** Home Screen & Dock now reads Banner, posters, weather, so it doesn't repeat its own name.
 
 ## What's new in 2.4.2
 
